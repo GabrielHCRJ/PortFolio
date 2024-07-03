@@ -1,0 +1,120 @@
+
+
+@font-face {
+    font-family: lekton;
+    src: url('lekton005_l.otf');
+}
+
+body{
+    font-family: lekton;
+    color: white;
+    margin: 10px;
+    background-image: url('wallpaper.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+
+.infos{
+    padding: 16px;
+    margin-left:16px;
+    margin-top: 25px;
+}
+
+.nome{    
+    font-size: 48px;
+    padding-bottom:8px;
+}
+
+.subtitulo{
+    font-size: 24px;
+    padding-bottom:8px;  
+
+}
+
+.habilidades{
+    font-size: 18px;
+    
+}
+.hab2{
+    font-size: 16px;
+
+}
+.icones{
+   
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 150px;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.icon{
+    width: 45px;
+    filter: invert(100%);
+  
+}
+
+.botoes{
+    padding-top: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.botao{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border:2px solid white;
+    border-radius: 20px;
+    padding: 16px;
+    transition: all 1s;
+}
+
+.sobre-mim{
+    margin-top:20px;
+    padding:10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgb(176, 174, 174);
+    color: black;  
+    transition: 2s;
+       
+}
+
+.sobre-mim:hover{
+    transform: scale(2);
+    margin-left:150px;
+}
+
+.portifolio{
+    margin-top: 150px;
+    width: 700px;
+    padding: 10px;   
+    
+}
+
+.projetos{
+    margin-bottom:10px;
+    margin-right:10px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgb(192, 190, 190);
+    transition: all 1s;;
+}
+
+.botao:hover{
+    transform: rotate(360deg);
+}
+
+.projetos:hover{
+    transform: scale(1.1);
+}
+
