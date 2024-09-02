@@ -50,7 +50,11 @@ Este projeto tem um foco pedagógico, visando capacitar os alunos com habilidade
 /
 ├── index.html            # Página principal do site
 ├── styles.css            # Arquivo de estilo CSS
-├── images/               # Diretório para imagens
+├── instagram.png
+├── whatsapp.png
+├── lekton005_l.oft       # Fonte usada no site
+├── wallpaper.png         #Fundo
+├── webdev.png            #Imagem usada para representar os futuros projetos
 ├── README.md             # Este arquivo
 └── ...
 
